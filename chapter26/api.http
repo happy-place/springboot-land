@@ -1,0 +1,16 @@
+### 获取todo list
+GET http://localhost:8080/lists
+Authorization: Basic alex password
+Accept: application/json
+
+### 获取id=1 todo list
+GET http://localhost:8080/lists/1/items
+Authorization: Basic alex password
+Accept: application/json
+
+### 获取id=1 todo list 的 id=1 的item
+GET http://localhost:8080/lists/1/items/1
+Authorization: Basic alex password
+Accept: application/json
+
+###

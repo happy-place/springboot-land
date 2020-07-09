@@ -1,0 +1,33 @@
+### /example/my-home
+GET http://localhost:8080/example/my-home
+
+### /example/foo
+GET http://localhost:8080/example/foo
+
+### /actuator/example-rest/echo?text=123 Forbidden
+GET http://localhost:8080/actuator/example-rest/echo?text=123
+Authorization: Basic user password
+
+### /actuator/example-rest/echo?text=123
+GET http://localhost:8080/actuator/example-rest/echo?text=123
+Authorization: Basic admin admin
+
+###
+GET http://localhost:8080/actuator/env
+Authorization: Basic admin admin
+
+### /actuator/health 直接放行
+GET http://localhost:8080/actuator/health
+
+### /actuator/info 直接放行
+GET http://localhost:8080/actuator/info
+
+### 获取 /actuator/mappings
+GET http://localhost:8080/actuator/mappings
+
+### 访问 /actuator/beans 需要beans 用户
+GET http://localhost:8080/actuator/beans
+Authorization: Basic beans beans
+
+###
+

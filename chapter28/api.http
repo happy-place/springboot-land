@@ -1,0 +1,7 @@
+### /hello endpoint
+GET http://localhost:8080/hello
+Accept: application/json
+
+### /reverse endpoint
+GET http://localhost:8080/reverse?input=hello
+Accept: application/json

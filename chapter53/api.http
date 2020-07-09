@@ -1,0 +1,5 @@
+### 保存到session
+GET http://localhost:8080/hello/admin
+
+### 从session取出
+GET http://localhost:8080/getName

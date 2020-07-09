@@ -1,0 +1,29 @@
+### 查看远程目录 文件
+GET http://localhost:8080/list-file?dir=upload
+Accept: application/json
+
+### 查看远程目录 目录
+GET http://localhost:8080/list-dir?dir=upload
+Accept: application/json
+
+### 查看下载指定模式文件
+GET http://localhost:8080/mget?pattern=upload/*.txt
+Accept: application/json
+
+### 上传 单个文件
+GET http://localhost:8080/upload?file=/Users/huhao/Desktop/hello.txt
+Accept: application/json
+
+### 上传整个目录下的文件
+GET http://localhost:8080/multi-upload?pattern=/Users/huhao/Desktop/test
+Accept: application/json
+
+### 删除文件
+GET http://localhost:8080/remove-file?file=upload/hello.txt
+Accept: application/json
+
+### 重命名远程文件
+GET http://localhost:8080/rename?file=upload/test1/print.txt
+Accept: application/json
+
+###

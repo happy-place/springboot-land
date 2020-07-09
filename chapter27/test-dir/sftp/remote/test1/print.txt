@@ -1,0 +1,1 @@
+docker run --name mysftp20 -v /Users/huhao/software/idea_proj/springboot-land/chapter27/test-dir/sftp/remote:/home/foo/upload --privileged=true -p 2222:22 -d atmoz/sftp foo:pass:1001

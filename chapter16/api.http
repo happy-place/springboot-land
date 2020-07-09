@@ -1,0 +1,41 @@
+### ping
+GET http://127.0.0.1:8080/boot-on-h2/ping
+
+### rest-ping
+GET http://127.0.0.1:8080/boot-on-h2/rest-ping
+
+### get by id
+GET http://127.0.0.1:8080/boot-on-h2/customer?id=1
+
+### name like
+GET http://127.0.0.1:8080/boot-on-h2/customer/like?name=Mered
+
+### add
+POST http://127.0.0.1:8080/boot-on-h2/customer
+Content-Type: application/json
+
+{
+  "id": 1,
+  "firstName": "Meredith",
+  "dateOfBirth": "1998-09-13"
+}
+
+### update
+POST http://127.0.0.1:8080/boot-on-h2/customer
+Content-Type: application/json
+
+{
+  "firstName": "Meredash",
+  "dateOfBirth": "1998-07-13"
+}
+
+###
+
+### ping
+GET http://127.0.0.1:8080/boot-on-h2/home
+
+###
+
+
+
+

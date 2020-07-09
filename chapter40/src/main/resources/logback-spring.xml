@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml" />
+    <logger name="com.bigdata.boot.chapter40" level="DEBUG" />
+    <springProfile name="staging"> <!-- 对 profile = staging 适用-->
+        <logger name="com.bigdata.boot.chapter40" level="TRACE" />
+    </springProfile>
+</configuration>

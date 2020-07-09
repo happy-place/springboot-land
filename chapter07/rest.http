@@ -1,0 +1,13 @@
+### /home
+GET http://127.0.0.1:8080/
+
+### 模拟表单提交
+POST http://127.0.0.1:8080/
+Content-Type: application/x-www-form-urlencoded
+
+value=content
+
+### Exp
+GET http://127.0.0.1:8080/foo
+
+###

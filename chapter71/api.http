@@ -1,0 +1,15 @@
+###
+GET http://localhost:8080/
+Accept: application/json
+
+###
+GET http://localhost:8080/serviceUnavailable
+Accept: application/json
+
+###
+GET http://localhost:8080/insufficientStorage
+
+###
+GET http://localhost:8080/bang
+
+###

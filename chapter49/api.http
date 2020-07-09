@@ -1,0 +1,14 @@
+### /
+GET http://localhost:8080/
+Authorization: Basic user password
+
+###
+POST http://localhost:8080/echo
+Authorization: Basic user password
+Content-Type: application/json
+
+{
+  "name": "tom"
+}
+
+###
